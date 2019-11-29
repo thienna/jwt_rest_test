@@ -1,0 +1,10 @@
+version: '3'
+services:
+  userapi:
+    container_name: userapi2
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: userapi2:latest
+    ports:
+      - "8002:8000"

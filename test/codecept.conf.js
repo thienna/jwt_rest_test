@@ -3,7 +3,7 @@ exports.config = {
   output: './output',
   helpers: {
     REST: {
-      endpoint: 'http://localhost:8000'
+      endpoint: 'http://localhost:8002'
     }
   },
   include: {
